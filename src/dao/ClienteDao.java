@@ -3,6 +3,7 @@ package dao;
 //Heredar conexion
 
 
+import interfaces.ClienteInterface;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -11,7 +12,7 @@ import modelo.Cliente;
 
 
 
-public class ClienteDao extends Conexion{
+public class ClienteDao implements ClienteInterface{
 
     private String sql;
     private PreparedStatement ejecutar;
