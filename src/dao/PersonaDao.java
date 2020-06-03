@@ -16,12 +16,12 @@ import modelo.Persona;
 public class PersonaDao implements PersonaInterface{
 
     @Override
-    public String registrarPersona(Persona clienten) {
+    public String registrarPersona(Persona persona) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public ArrayList<Persona> listaClientes() {
+    public ArrayList<Persona> listaPersonas() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -34,5 +34,6 @@ public class PersonaDao implements PersonaInterface{
     public String daoModificarPersona(Persona datos) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+
     
 }
